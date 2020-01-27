@@ -8,18 +8,10 @@
       <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lifan/community/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lifan/community/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lifan/community/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lifan/community/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lifan/community/util/CommunityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lifan/community/util/CommunityConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lifan/community/MapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lifan/community/MapperTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lifan/community/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lifan/community/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lifan/community/util/CommunityConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/util/CommunityConstant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/site/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/site/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lifan/community/MapperTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lifan/community/MapperTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -242,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580016196939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="登录&amp;退出">
+      <created>1580096384260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580096384260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +250,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="首次提交" />
     <MESSAGE value="首页&amp;分页&amp;注册&amp;验证码" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页&amp;分页&amp;注册&amp;验证码" />
+    <MESSAGE value="登录&amp;退出" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录&amp;退出" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="28" key="#Notifications" timestamp="1579143883254">
@@ -270,30 +270,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="533" y="258" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1579060315783" />
-    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1580021295604">
+    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1580117713642">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580021295604" />
+    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580117713642" />
     <state x="484" y="124" key="FileChooserDialogImpl" timestamp="1579253543629">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="484" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1579253543629" />
-    <state width="1323" height="290" key="GridCell.Tab.0.bottom" timestamp="1580041690421">
+    <state width="771" height="2" key="GridCell.Tab.0.bottom" timestamp="1580105477323">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="290" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580041690421" />
-    <state width="1323" height="290" key="GridCell.Tab.0.center" timestamp="1580041690421">
+    <state width="771" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580105477323" />
+    <state width="771" height="2" key="GridCell.Tab.0.center" timestamp="1580105477322">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="290" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580041690421" />
-    <state width="1323" height="290" key="GridCell.Tab.0.left" timestamp="1580041690421">
+    <state width="771" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580105477322" />
+    <state width="771" height="2" key="GridCell.Tab.0.left" timestamp="1580105477322">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="290" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580041690421" />
-    <state width="1323" height="290" key="GridCell.Tab.0.right" timestamp="1580041690421">
+    <state width="771" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580105477322" />
+    <state width="771" height="2" key="GridCell.Tab.0.right" timestamp="1580105477323">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="290" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580041690421" />
+    <state width="771" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580105477323" />
     <state width="1323" height="290" key="GridCell.Tab.1.bottom" timestamp="1580041690421">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -322,9 +322,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="368" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1579059970093" />
-    <state x="687" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580021134178">
+    <state x="687" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580099479702">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="687" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1580021134178" />
+    <state x="687" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1580099479702" />
   </component>
 </project>
