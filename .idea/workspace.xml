@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0734e133-f24e-4b92-bd75-760a34041ee4" name="Default Changelist" comment="首页&amp;分页&amp;注册&amp;验证码">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/community.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lifan/community/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lifan/community/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lifan/community/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifan/community/controller/interceptor/AlphaInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifan/community/controller/interceptor/LoginTicketInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifan/community/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifan/community/util/HostHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/controller/interceptor/AlphaInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/controller/interceptor/LoginTicketInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/util/CookieUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifan/community/util/HostHolder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,17 +244,61 @@
       <option name="project" value="LOCAL" />
       <updated>1580096384260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="登录信息显示">
+      <created>1580117770882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580117770882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="首次提交" />
     <MESSAGE value="首页&amp;分页&amp;注册&amp;验证码" />
     <MESSAGE value="登录&amp;退出" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录&amp;退出" />
+    <MESSAGE value="登录信息显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录信息显示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="28" key="#Notifications" timestamp="1579143883254">
@@ -270,10 +317,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="533" y="258" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1579060315783" />
-    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1580117713642">
+    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1580117767131">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580117713642" />
+    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580117767131" />
     <state x="484" y="124" key="FileChooserDialogImpl" timestamp="1579253543629">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -314,14 +361,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="246" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1579253509034" />
-    <state x="489" y="48" key="Vcs.Push.Dialog.v2" timestamp="1580016229485">
+    <state x="489" y="48" key="Vcs.Push.Dialog.v2" timestamp="1580117831502">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="489" y="48" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580016229485" />
+    <state x="489" y="48" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580117831502" />
     <state x="368" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1579059970093">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="368" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1579059970093" />
+    <state x="393" y="160" key="git4idea.merge.GitPullDialog" timestamp="1580117782241">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="393" y="160" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1580117782241" />
     <state x="687" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580099479702">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
